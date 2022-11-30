@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
-axios.defaults.baseURL = 'http://localhost:5000'
+axios.defaults.baseURL = 'https://backend-scanneame-production.up.railway.app'
 
 root.render(
   <React.StrictMode>
