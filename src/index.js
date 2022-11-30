@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
-//import { store } from './redux/store';
+import { store } from './redux/store';
 import App from './App';
 //import {BrowserRouter} from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
@@ -16,7 +16,7 @@ axios.defaults.baseURL = 'http://localhost:5000'
 root.render(
   <React.StrictMode>
     <p>Prueba para ver si renderiza</p>
-    <Provider>
+    <Provider store={store}>
     
       <App />
     
