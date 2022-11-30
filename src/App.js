@@ -1,5 +1,5 @@
 import React from 'react'
-import { browserRouter, Route, Routes} from 'react-router-dom'
+import { BrowserRouter, Route, Routes} from 'react-router-dom'
 //import { Counter } from './features/counter/Counter';
 import Home from './pages/home/Home'
 import Catalogue from './pages/catalogue/Catalogue'
@@ -16,8 +16,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className='App'>
-      <BrowserRouter>
+    <>
+    <BrowserRouter>
       <Routes>
         <Route path="/home" element={<Home />}/>
         <Route path="/catalogue" element={<Catalogue />}/>
@@ -31,7 +31,7 @@ function App() {
         <Route path="/user/account" element={<UserAccount/>} /> 
       </Routes>
       </BrowserRouter>
-    </div>
+      </>
   )
 }
 
