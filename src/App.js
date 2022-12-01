@@ -16,6 +16,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
+    <p>Prueba para ver si renderiza2</p>
+    /*
     <>
     <BrowserRouter>
       <Routes>
@@ -32,6 +34,7 @@ function App() {
       </Routes>
       </BrowserRouter>
       </>
+  */
   )
 }
 
