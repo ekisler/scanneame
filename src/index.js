@@ -18,7 +18,7 @@ root.render(
     <p>Prueba para ver si renderiza</p>
     <Provider store={store}>
     
-      <App />
+      {/*<App />*/}
     
     </Provider>
   </React.StrictMode>
