@@ -32,7 +32,7 @@ export default function Details({name, type, stock, color, price, image}) {
             <img
               height={'30px'}
               src="https://cdn4.iconfinder.com/data/icons/flat-pro-business-set-1/32/shopping-cart-grey-512.png"
-              alt="cart image"
+              alt="cart"
               class="price-cart__btn-img"
             />
             Add to cart
